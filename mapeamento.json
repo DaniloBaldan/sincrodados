@@ -1,0 +1,25 @@
+{
+  "departamentos": {
+    "origem_tabela": "tb_department",
+    "destino_tabela": "departamentos",
+    "chave_natural": "codigo_origem",
+    "campos": [
+      { "origem": "dept_code", "destino": "codigo_origem", "transformacao": "texto", "obrigatorio": true },
+      { "origem": "dept_name", "destino": "nome", "transformacao": "titulo", "obrigatorio": true }
+    ]
+  },
+  "funcionarios": {
+    "origem_tabela": "tb_employee",
+    "destino_tabela": "funcionarios",
+    "chave_natural": "cpf",
+    "campos": [
+      { "origem": "full_name", "destino": "nome_completo", "transformacao": "titulo", "obrigatorio": true },
+      { "origem": "cpf", "destino": "cpf", "transformacao": "cpf", "obrigatorio": true },
+      { "origem": "salary", "destino": "salario", "transformacao": "decimal", "obrigatorio": true },
+      { "origem": "hire_date", "destino": "data_admissao", "transformacao": "data_br", "obrigatorio": true },
+      { "origem": "email", "destino": "email", "transformacao": "email", "obrigatorio": true },
+      { "origem": "active", "destino": "situacao", "transformacao": "situacao", "obrigatorio": false },
+      { "origem": "dept_code", "destino": "id_departamento", "transformacao": "departamento", "obrigatorio": true }
+    ]
+  }
+}
