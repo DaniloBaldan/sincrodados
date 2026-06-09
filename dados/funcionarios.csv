@@ -1,0 +1,11 @@
+id,nome_completo,cpf,salario,data_admissao,email,situacao,id_departamento
+1,Joao Da Silva,104.332.181-00,4500.0,12/03/2019,joao.silva@empresa.com,Ativo,1
+2,Maria Oliveira Souza,960.013.389-14,6200.5,01/08/2017,maria.souza@empresa.com,Ativo,2
+3,Carlos Pereira,083.863.794-99,8300.75,20/01/2015,carlos.pereira@empresa.com,Ativo,3
+4,Ana Paula Ramos,026.542.351-14,5100.0,05/11/2021,ana.ramos@empresa.com,Ativo,1
+5,Pedro Henrique Costa,161.559.407-89,3900.9,18/06/2020,pedro.costa@empresa.com,Inativo,4
+6,Luciana Martins,816.184.959-50,7200.0,30/09/2016,luciana.martins@empresa.com,Ativo,2
+7,Roberto Almeida,310.341.316-56,9800.0,14/02/2014,roberto.almeida@empresa.com,Ativo,3
+8,Fernanda Lima,475.255.341-44,4100.25,22/04/2022,fernanda.lima@empresa.com,Ativo,4
+9,Marcos Vinicius Dias,928.327.648-51,6800.0,09/07/2018,marcos.dias@empresa.com,Inativo,1
+10,Patricia Gomes,350.305.641-60,5500.0,01/12/2019,patricia.gomes@empresa.com,Ativo,2
